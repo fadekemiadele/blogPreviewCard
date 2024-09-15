@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree";
+}
+@font-face {
+    font-family: 'Figtree';
+    src: url('/assets/fonts/static/Figtree-ExtraBold.ttf');
+  }
+  
+
+.container{
+    background-color: #F4D04E;
+    max-width: 800px;
+    padding: 20px;
+    height: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+   background-color: white;
+   width: 250px;
+   margin: 50px;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.card-image{
+    text-align: center;
+}
+.ilustration-image{
+    border-radius: 5px;
+}
+.yellow-highlight{
+    background-color: #F4D04E;
+    width: fit-content;
+    margin: 6px;
+    padding: 3px;
+    border-radius: 1px;
+}
+h2{
+    margin: 6px;
+    font-family: "Figtree";
+}
+.no-style{
+    margin: 6px;
+}
+.user-section{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+.username{
+    display: inline;
+    padding: 3px;
+}
